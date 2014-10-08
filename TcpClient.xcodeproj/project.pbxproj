@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB6A10D919E5179F00D076A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6A10D819E5179F00D076A1 /* Foundation.framework */; };
+		CB6A10DB19E5179F00D076A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6A10DA19E5179F00D076A1 /* CoreGraphics.framework */; };
+		CB6A10DD19E5179F00D076A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6A10DC19E5179F00D076A1 /* UIKit.framework */; };
+		CB6A10E319E5179F00D076A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB6A10E119E5179F00D076A1 /* InfoPlist.strings */; };
+		CB6A10E519E5179F00D076A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6A10E419E5179F00D076A1 /* main.m */; };
+		CB6A10E919E5179F00D076A1 /* LYHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6A10E819E5179F00D076A1 /* LYHAppDelegate.m */; };
+		CB6A10EB19E5179F00D076A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6A10EA19E5179F00D076A1 /* Images.xcassets */; };
+		CB6A10F219E5179F00D076A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6A10F119E5179F00D076A1 /* XCTest.framework */; };
+		CB6A10F319E5179F00D076A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6A10D819E5179F00D076A1 /* Foundation.framework */; };
+		CB6A10F419E5179F00D076A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6A10DC19E5179F00D076A1 /* UIKit.framework */; };
+		CB6A10FC19E5179F00D076A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB6A10FA19E5179F00D076A1 /* InfoPlist.strings */; };
+		CB6A10FE19E5179F00D076A1 /* TcpClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6A10FD19E5179F00D076A1 /* TcpClientTests.m */; };
+		CB6A110D19E5181200D076A1 /* LYHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6A110B19E5181200D076A1 /* LYHRootViewController.m */; };
+		CB6A110E19E5181200D076A1 /* LYHRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6A110C19E5181200D076A1 /* LYHRootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB6A10F519E5179F00D076A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB6A10CD19E5179F00D076A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB6A10D419E5179F00D076A1;
+			remoteInfo = TcpClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB6A10D519E5179F00D076A1 /* TcpClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TcpClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6A10D819E5179F00D076A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB6A10DA19E5179F00D076A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB6A10DC19E5179F00D076A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB6A10E019E5179F00D076A1 /* TcpClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TcpClient-Info.plist"; sourceTree = "<group>"; };
+		CB6A10E219E5179F00D076A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB6A10E419E5179F00D076A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB6A10E619E5179F00D076A1 /* TcpClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TcpClient-Prefix.pch"; sourceTree = "<group>"; };
+		CB6A10E719E5179F00D076A1 /* LYHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHAppDelegate.h; sourceTree = "<group>"; };
+		CB6A10E819E5179F00D076A1 /* LYHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHAppDelegate.m; sourceTree = "<group>"; };
+		CB6A10EA19E5179F00D076A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB6A10F019E5179F00D076A1 /* TcpClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TcpClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6A10F119E5179F00D076A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB6A10F919E5179F00D076A1 /* TcpClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TcpClientTests-Info.plist"; sourceTree = "<group>"; };
+		CB6A10FB19E5179F00D076A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB6A10FD19E5179F00D076A1 /* TcpClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TcpClientTests.m; sourceTree = "<group>"; };
+		CB6A110A19E5181200D076A1 /* LYHRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHRootViewController.h; sourceTree = "<group>"; };
+		CB6A110B19E5181200D076A1 /* LYHRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHRootViewController.m; sourceTree = "<group>"; };
+		CB6A110C19E5181200D076A1 /* LYHRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYHRootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB6A10D219E5179F00D076A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6A10DB19E5179F00D076A1 /* CoreGraphics.framework in Frameworks */,
+				CB6A10DD19E5179F00D076A1 /* UIKit.framework in Frameworks */,
+				CB6A10D919E5179F00D076A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6A10ED19E5179F00D076A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6A10F219E5179F00D076A1 /* XCTest.framework in Frameworks */,
+				CB6A10F419E5179F00D076A1 /* UIKit.framework in Frameworks */,
+				CB6A10F319E5179F00D076A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB6A10CC19E5179F00D076A1 = {
+			isa = PBXGroup;
+			children = (
+				CB6A10DE19E5179F00D076A1 /* TcpClient */,
+				CB6A10F719E5179F00D076A1 /* TcpClientTests */,
+				CB6A10D719E5179F00D076A1 /* Frameworks */,
+				CB6A10D619E5179F00D076A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB6A10D619E5179F00D076A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6A10D519E5179F00D076A1 /* TcpClient.app */,
+				CB6A10F019E5179F00D076A1 /* TcpClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB6A10D719E5179F00D076A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB6A10D819E5179F00D076A1 /* Foundation.framework */,
+				CB6A10DA19E5179F00D076A1 /* CoreGraphics.framework */,
+				CB6A10DC19E5179F00D076A1 /* UIKit.framework */,
+				CB6A10F119E5179F00D076A1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB6A10DE19E5179F00D076A1 /* TcpClient */ = {
+			isa = PBXGroup;
+			children = (
+				CB6A10E719E5179F00D076A1 /* LYHAppDelegate.h */,
+				CB6A10E819E5179F00D076A1 /* LYHAppDelegate.m */,
+				CB6A110A19E5181200D076A1 /* LYHRootViewController.h */,
+				CB6A110B19E5181200D076A1 /* LYHRootViewController.m */,
+				CB6A110C19E5181200D076A1 /* LYHRootViewController.xib */,
+				CB6A10EA19E5179F00D076A1 /* Images.xcassets */,
+				CB6A10DF19E5179F00D076A1 /* Supporting Files */,
+			);
+			path = TcpClient;
+			sourceTree = "<group>";
+		};
+		CB6A10DF19E5179F00D076A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6A10E019E5179F00D076A1 /* TcpClient-Info.plist */,
+				CB6A10E119E5179F00D076A1 /* InfoPlist.strings */,
+				CB6A10E419E5179F00D076A1 /* main.m */,
+				CB6A10E619E5179F00D076A1 /* TcpClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB6A10F719E5179F00D076A1 /* TcpClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB6A10FD19E5179F00D076A1 /* TcpClientTests.m */,
+				CB6A10F819E5179F00D076A1 /* Supporting Files */,
+			);
+			path = TcpClientTests;
+			sourceTree = "<group>";
+		};
+		CB6A10F819E5179F00D076A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6A10F919E5179F00D076A1 /* TcpClientTests-Info.plist */,
+				CB6A10FA19E5179F00D076A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB6A10D419E5179F00D076A1 /* TcpClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6A110119E5179F00D076A1 /* Build configuration list for PBXNativeTarget "TcpClient" */;
+			buildPhases = (
+				CB6A10D119E5179F00D076A1 /* Sources */,
+				CB6A10D219E5179F00D076A1 /* Frameworks */,
+				CB6A10D319E5179F00D076A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TcpClient;
+			productName = TcpClient;
+			productReference = CB6A10D519E5179F00D076A1 /* TcpClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB6A10EF19E5179F00D076A1 /* TcpClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6A110419E5179F00D076A1 /* Build configuration list for PBXNativeTarget "TcpClientTests" */;
+			buildPhases = (
+				CB6A10EC19E5179F00D076A1 /* Sources */,
+				CB6A10ED19E5179F00D076A1 /* Frameworks */,
+				CB6A10EE19E5179F00D076A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB6A10F619E5179F00D076A1 /* PBXTargetDependency */,
+			);
+			name = TcpClientTests;
+			productName = TcpClientTests;
+			productReference = CB6A10F019E5179F00D076A1 /* TcpClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB6A10CD19E5179F00D076A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LYH;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Charles Leo";
+				TargetAttributes = {
+					CB6A10EF19E5179F00D076A1 = {
+						TestTargetID = CB6A10D419E5179F00D076A1;
+					};
+				};
+			};
+			buildConfigurationList = CB6A10D019E5179F00D076A1 /* Build configuration list for PBXProject "TcpClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB6A10CC19E5179F00D076A1;
+			productRefGroup = CB6A10D619E5179F00D076A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB6A10D419E5179F00D076A1 /* TcpClient */,
+				CB6A10EF19E5179F00D076A1 /* TcpClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB6A10D319E5179F00D076A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6A10E319E5179F00D076A1 /* InfoPlist.strings in Resources */,
+				CB6A110E19E5181200D076A1 /* LYHRootViewController.xib in Resources */,
+				CB6A10EB19E5179F00D076A1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6A10EE19E5179F00D076A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6A10FC19E5179F00D076A1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB6A10D119E5179F00D076A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6A10E919E5179F00D076A1 /* LYHAppDelegate.m in Sources */,
+				CB6A110D19E5181200D076A1 /* LYHRootViewController.m in Sources */,
+				CB6A10E519E5179F00D076A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB6A10EC19E5179F00D076A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6A10FE19E5179F00D076A1 /* TcpClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB6A10F619E5179F00D076A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB6A10D419E5179F00D076A1 /* TcpClient */;
+			targetProxy = CB6A10F519E5179F00D076A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB6A10E119E5179F00D076A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6A10E219E5179F00D076A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB6A10FA19E5179F00D076A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6A10FB19E5179F00D076A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB6A10FF19E5179F00D076A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB6A110019E5179F00D076A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB6A110219E5179F00D076A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TcpClient/TcpClient-Prefix.pch";
+				INFOPLIST_FILE = "TcpClient/TcpClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB6A110319E5179F00D076A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TcpClient/TcpClient-Prefix.pch";
+				INFOPLIST_FILE = "TcpClient/TcpClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB6A110519E5179F00D076A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TcpClient.app/TcpClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TcpClient/TcpClient-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TcpClientTests/TcpClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB6A110619E5179F00D076A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TcpClient.app/TcpClient";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TcpClient/TcpClient-Prefix.pch";
+				INFOPLIST_FILE = "TcpClientTests/TcpClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB6A10D019E5179F00D076A1 /* Build configuration list for PBXProject "TcpClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6A10FF19E5179F00D076A1 /* Debug */,
+				CB6A110019E5179F00D076A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6A110119E5179F00D076A1 /* Build configuration list for PBXNativeTarget "TcpClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6A110219E5179F00D076A1 /* Debug */,
+				CB6A110319E5179F00D076A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB6A110419E5179F00D076A1 /* Build configuration list for PBXNativeTarget "TcpClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6A110519E5179F00D076A1 /* Debug */,
+				CB6A110619E5179F00D076A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB6A10CD19E5179F00D076A1 /* Project object */;
+}
